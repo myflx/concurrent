@@ -11,6 +11,7 @@
     <modules>
         <module>c1-thread</module>
         <module>c2-constructor</module>
+        <module>c3-api</module>
     </modules>
     <properties>
         <project-version>${project.version}</project-version>
