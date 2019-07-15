@@ -12,6 +12,7 @@
         <module>c1-thread</module>
         <module>c2-constructor</module>
         <module>c3-api</module>
+        <module>c4-safe</module>
     </modules>
     <properties>
         <project-version>${project.version}</project-version>
@@ -95,6 +96,18 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.6</version>
+        </dependency>
+        <!--mock测试-->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
