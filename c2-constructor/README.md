@@ -52,9 +52,9 @@ public final synchronized void setName(String name) {
 Linux系统下的配置也可以决定线程数量的大小
 
 /proc/sys/kernel/threads-max
-
+    2C4G 30475  1C2.5G 14569
 /proc/sys/kernel/pid_max
-
+    2C4G 262214  1C2.5G 32768
 /proc/sys/kernel/max_map_count
 
 
